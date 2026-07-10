@@ -52,6 +52,33 @@
   </div>
 </section>
 
+<section class="research-panels">
+  <div class="container">
+    <div class="panel-grid">
+      <article class="focus-panel reveal">
+        <span class="panel-number">01</span>
+        <h3>Freshwater Remote Sensing</h3>
+        <p>Satellite monitoring of lake temperature, turbidity, water quality, and seasonal change.</p>
+      </article>
+      <article class="focus-panel reveal">
+        <span class="panel-number">02</span>
+        <h3>Lake Ice and Climate</h3>
+        <p>Spatial modelling of ice thickness, freeze-up, break-up, and long-term climate responses.</p>
+      </article>
+      <article class="focus-panel reveal">
+        <span class="panel-number">03</span>
+        <h3>GeoAI and Modelling</h3>
+        <p>Machine learning, sensor fusion, cloud computing, and scalable environmental workflows.</p>
+      </article>
+      <article class="focus-panel reveal">
+        <span class="panel-number">04</span>
+        <h3>Open Environmental Data</h3>
+        <p>Reproducible datasets and tools for researchers, agencies, and northern decision-making.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 <section id="about" class="section">
   <div class="container two-column">
     <div class="section-heading reveal"><p class="eyebrow">About</p><h2>Research at the intersection of Earth observation, freshwater science, and environmental decision-making.</h2></div>
@@ -59,21 +86,116 @@
   </div>
 </section>
 
-<section class="section section-alt" id="education">
-<div class="container"><div class="section-heading centered reveal"><p class="eyebrow">Education</p><h2>Interdisciplinary training across geography, environmental management, and geospatial science</h2></div>
-<div class="education-grid">
-<article class="info-card reveal"><div class="icon">PhD</div><h3>PhD in Geography</h3><p><strong>Wilfrid Laurier University</strong><br>2020–2024</p><p>Remote sensing and modelling of lake surface temperature, ice thickness, and phenology across sub-Arctic lakes.</p></article>
-<article class="info-card reveal"><div class="icon">MSc</div><h3>MSc in Environmental Management</h3><p><strong>Christian-Albrechts-Universität zu Kiel</strong><br>2016–2019</p><p>Remote sensing, GIS, vegetation monitoring, and machine-learning-based surface extraction monitoring.</p></article>
-<article class="info-card reveal"><div class="icon">BA</div><h3>BA in Geography and Resource Development</h3><p><strong>University of Ghana</strong><br>2010–2014</p><p>Applied GIS projects in flood-zone detection, health accessibility, and spatial planning.</p></article>
-</div></div></section>
 
-<section id="projects" class="section">
-<div class="container"><div class="section-heading reveal"><p class="eyebrow">Selected research</p><h2>Research programs and technical contributions</h2></div><div class="projects">
-<article class="project-card reveal"><div class="project-visual visual-one"><span>Great Slave Lake</span></div><div class="project-content"><p class="project-type">Remote sensing · Machine learning · Water quality</p><h3>Long-term turbidity monitoring for Great Slave Lake</h3><p>Developed a dual-threshold random forest framework that harmonizes MODIS and VIIRS observations to retrieve turbidity, examine seasonal patterns, identify spatial regimes, and quantify long-term change across Great Slave Lake.</p><div class="tag-list"><span>Python</span><span>Google Earth Engine</span><span>Random Forest</span><span>MODIS</span><span>VIIRS</span></div><div class="project-links"><a href="https://doi.org/10.22541/essoar.177275325.55267023/v1" target="_blank" rel="noopener">Preprint</a><a href="https://doi.org/10.20383/103.01563" target="_blank" rel="noopener">Dataset</a></div></div></article>
-<article class="project-card reveal"><div class="project-visual visual-two"><span>North Slave Region</span></div><div class="project-content"><p class="project-type">Lake ice · Climate change · Spatial modelling</p><h3>Lake ice thickness and phenology across 535 northern lakes</h3><p>Produced spatially distributed estimates of ice thickness, freeze-up, break-up, and ice-cover duration using Landsat-derived lake surface temperature, ERA5 climate data, and thermodynamic modelling.</p><div class="tag-list"><span>Landsat</span><span>ERA5</span><span>Python</span><span>Thermodynamic modelling</span><span>Trend analysis</span></div><div class="project-links"><a href="https://doi.org/10.1029/2025WR040216" target="_blank" rel="noopener">Publication</a><a href="https://doi.org/10.5683/SP3/2FZY9M" target="_blank" rel="noopener">Dataset</a></div></div></article>
-<article class="project-card reveal"><div class="project-visual visual-three"><span>Northern Lake Temperature</span></div><div class="project-content"><p class="project-type">Earth observation · Climate records · Open data</p><h3>Four decades of lake surface temperature</h3><p>Created and analysed a lake-specific Landsat temperature archive for the North Slave Region, generating a reproducible record of thermal conditions from 1984 to 2021.</p><div class="tag-list"><span>Landsat archive</span><span>Thermal remote sensing</span><span>Validation</span><span>Time series</span><span>Open science</span></div><div class="project-links"><a href="https://doi.org/10.1016/j.ejrh.2023.101571" target="_blank" rel="noopener">Research article</a><a href="https://doi.org/10.5194/essd-15-1329-2023" target="_blank" rel="noopener">Dataset paper</a></div></div></article>
-<article class="project-card reveal"><div class="project-visual visual-four"><span>GeoAI and Land Change</span></div><div class="project-content"><p class="project-type">Classification · Remote sensing · Machine learning</p><h3>Machine learning for surface mining and landscape change</h3><p>Evaluated supervised machine-learning models using Sentinel-2 imagery to detect and map surface mining, extending earlier work in environmental monitoring, vegetation analysis, and automated GIS processing.</p><div class="tag-list"><span>Sentinel-2</span><span>SVM</span><span>Random Forest</span><span>Scikit-learn</span><span>Change detection</span></div><div class="project-links"><a href="https://doi.org/10.20944/preprints202503.2261.v1" target="_blank" rel="noopener">Preprint</a></div></div></article>
-</div></div></section>
+
+<section id="projects" class="section projects-section">
+<div class="container">
+  <div class="section-heading reveal">
+    <p class="eyebrow">Selected research</p>
+    <h2>Research programs and technical contributions</h2>
+    <p class="section-intro">Each project combines environmental questions, rigorous geospatial methods, and reusable research outputs.</p>
+  </div>
+
+  <div class="projects">
+    <article class="project-card reveal">
+      <div class="project-visual visual-one">
+        <span class="project-kicker">Great Slave Lake</span>
+        <h3>Turbidity and water-quality dynamics</h3>
+      </div>
+      <div class="project-content">
+        <p class="project-type">Remote sensing · Machine learning · Water quality</p>
+        <p class="project-summary">A multi-sensor research program designed to create a long-term, spatially continuous record of turbidity across Great Slave Lake.</p>
+        <div class="project-detail">
+          <strong>Research focus</strong>
+          <p>Understanding how river inflows, lake circulation, temperature, and seasonal conditions shape turbidity patterns and long-term change.</p>
+        </div>
+        <div class="project-detail">
+          <strong>Approach</strong>
+          <p>Harmonized MODIS and VIIRS observations, in-situ measurements, dual-threshold random forests, pixel-wise trend analysis, and spatial clustering.</p>
+        </div>
+        <div class="project-detail">
+          <strong>Contribution</strong>
+          <p>A daily 2002–2025 turbidity dataset, mapped water-quality regimes, and a reproducible workflow for large northern lakes.</p>
+        </div>
+        <div class="tag-list"><span>MODIS</span><span>VIIRS</span><span>Random Forest</span><span>Google Earth Engine</span><span>Python</span></div>
+      </div>
+    </article>
+
+    <article class="project-card reveal">
+      <div class="project-visual visual-two">
+        <span class="project-kicker">North Slave Region</span>
+        <h3>Lake ice thickness and phenology</h3>
+      </div>
+      <div class="project-content">
+        <p class="project-type">Lake ice · Climate change · Spatial modelling</p>
+        <p class="project-summary">A spatially distributed modelling framework for examining how lake ice conditions have changed across hundreds of sub-Arctic lakes.</p>
+        <div class="project-detail">
+          <strong>Research focus</strong>
+          <p>Assessing how lake size, depth, location, and climate influence ice thickness, freeze-up, break-up, and ice-cover duration.</p>
+        </div>
+        <div class="project-detail">
+          <strong>Approach</strong>
+          <p>Landsat-derived lake surface temperature, ERA5 climate forcing, thermodynamic modelling, validation, and multi-decadal spatial trend analysis.</p>
+        </div>
+        <div class="project-detail">
+          <strong>Contribution</strong>
+          <p>Daily lake ice estimates for 535 lakes from 1984–2022 and evidence of widespread thinning and shorter ice seasons.</p>
+        </div>
+        <div class="tag-list"><span>Landsat</span><span>ERA5</span><span>Thermodynamic Modelling</span><span>Trend Analysis</span><span>HPC</span></div>
+      </div>
+    </article>
+
+    <article class="project-card reveal">
+      <div class="project-visual visual-three">
+        <span class="project-kicker">Northern Lake Temperature</span>
+        <h3>Four decades of thermal change</h3>
+      </div>
+      <div class="project-content">
+        <p class="project-type">Earth observation · Climate records · Open data</p>
+        <p class="project-summary">A lake-specific satellite archive developed to reveal long-term thermal patterns across northern lakes that are poorly represented by ground monitoring networks.</p>
+        <div class="project-detail">
+          <strong>Research focus</strong>
+          <p>Examining how open-water, ice-covered, transition-season, and annual lake temperatures have changed over four decades.</p>
+        </div>
+        <div class="project-detail">
+          <strong>Approach</strong>
+          <p>Landsat thermal observations, lake-specific masking, seasonal compositing, MODIS validation, and time-series trend analysis.</p>
+        </div>
+        <div class="project-detail">
+          <strong>Contribution</strong>
+          <p>An open 1984–2021 dataset supporting climate research, lake-ice modelling, and regional freshwater monitoring.</p>
+        </div>
+        <div class="tag-list"><span>Thermal Remote Sensing</span><span>Landsat Archive</span><span>Validation</span><span>Time Series</span><span>Open Science</span></div>
+      </div>
+    </article>
+
+    <article class="project-card reveal">
+      <div class="project-visual visual-four">
+        <span class="project-kicker">GeoAI and Land Change</span>
+        <h3>Machine learning for environmental mapping</h3>
+      </div>
+      <div class="project-content">
+        <p class="project-type">Classification · Remote sensing · Machine learning</p>
+        <p class="project-summary">Applied machine-learning research for mapping surface mining, land cover, vegetation, and environmental disturbance from multispectral satellite data.</p>
+        <div class="project-detail">
+          <strong>Research focus</strong>
+          <p>Determining which combinations of spectral bands, indices, and classifiers best distinguish complex environmental land-cover classes.</p>
+        </div>
+        <div class="project-detail">
+          <strong>Approach</strong>
+          <p>Sentinel-2 and Landsat imagery, spectral-index engineering, SVM and random forest models, accuracy assessment, and change detection.</p>
+        </div>
+        <div class="project-detail">
+          <strong>Contribution</strong>
+          <p>Transferable workflows for automated classification, landscape monitoring, and environmental decision support.</p>
+        </div>
+        <div class="tag-list"><span>Sentinel-2</span><span>SVM</span><span>Random Forest</span><span>Scikit-learn</span><span>Change Detection</span></div>
+      </div>
+    </article>
+  </div>
+</div>
+</section>
+
 
 <section id="publications" class="section section-alt"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Research outputs</p><h2>Selected publications and open datasets</h2><p class="section-intro">Peer-reviewed articles, preprints, and reusable environmental datasets.</p></div>
 <div class="output-columns"><div><h3 class="output-heading">Selected publications</h3><div class="publication-list">

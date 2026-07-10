@@ -1,60 +1,28 @@
-# Dr. Gifty Attiah — GitHub Portfolio
+# Improved Full Portfolio
 
-A responsive academic and professional portfolio website built for GitHub Pages.
+This version preserves the expanded portfolio content and removes only the Education timeline.
 
-## Files
+## Preserved sections
+- About
+- Four research-focus panels
+- Featured projects
+- Publications and datasets
+- Experience
+- Technical expertise
+- Teaching and mentorship
+- Funding and recognition
+- Leadership and knowledge mobilization
+- Contact
 
-- `index.html` — website content
-- `assets/style.css` — styling and responsive design
-- `assets/script.js` — mobile navigation and scroll animations
-- `assets/Gifty_Attiah_CV.pdf` — replace this placeholder with your real CV
+## Updated design
+- Stronger top-of-page visual hierarchy
+- Restored four-panel research cards
+- Richer project descriptions
+- No project repository or project-detail links
+- Improved cards, spacing, hover effects, and responsive layouts
 
-## Before publishing
-
-Search `index.html` and replace:
-
-- `YOUR-GITHUB-USERNAME`
-- `YOUR-LINKEDIN`
-- `YOUR-ID`
-- placeholder publication details
-- placeholder project repository links
-- `assets/Gifty_Attiah_CV.pdf` with your actual CV file
-
-You can also replace the initials portrait with a professional photograph.
-
-## Publish with GitHub Pages
-
-1. Create a new public GitHub repository. A suitable name is `YOUR-GITHUB-USERNAME.github.io`.
-2. Upload all files and folders from this project.
-3. Commit the files to the `main` branch.
-4. Open the repository's **Settings**.
-5. Select **Pages**.
-6. Under **Build and deployment**, choose **Deploy from a branch**.
-7. Select the `main` branch and `/root` folder.
-8. Save.
-
-Your website will appear at:
-
-`https://YOUR-GITHUB-USERNAME.github.io`
-
-## Using a project repository instead
-
-You can use a repository such as `portfolio`. GitHub Pages will then publish the website at:
-
-`https://YOUR-GITHUB-USERNAME.github.io/portfolio/`
-
-## Custom domain
-
-Add your domain under **Settings → Pages → Custom domain**. GitHub will provide the DNS records you need.
-
-## Local preview
-
-Open `index.html` directly in a browser, or run:
-
-```bash
-python -m http.server 8000
-```
-
-Then visit:
-
-`http://localhost:8000`
+Replace the existing repository files with:
+- `index.html`
+- `assets/style.css`
+- `assets/script.js`
+- `assets/Gifty_Attiah_CV.pdf`
