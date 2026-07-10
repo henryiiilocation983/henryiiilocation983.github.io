@@ -289,7 +289,7 @@ h3 {
 }
 
 .section {
-  padding: 120px 0;
+  padding: 75px 0;
 }
 
 .section-alt {
@@ -310,7 +310,7 @@ h3 {
 
 .section-heading {
   max-width: 760px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .section-heading.centered {
@@ -762,7 +762,7 @@ h3 {
   z-index: 4;
 }
 .research-panels {
-  padding: 34px 0 105px;
+  padding: 20px 0 65px;
 }
 .panel-grid {
   display: grid;
@@ -885,7 +885,7 @@ h3 {
   .project-card { grid-template-columns: 1fr; }
   .project-visual { min-height: 330px; }
 }
-@media (max-width: 680px) {
+ (max-width: 680px) {
   .panel-grid { grid-template-columns: 1fr; }
   .research-panels { padding-bottom: 78px; }
   .project-content { padding: 28px; }
