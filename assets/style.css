@@ -905,14 +905,4 @@ h3 {
   margin-right: auto;
 }
 
-#about .section-heading {
-  max-width: none;
-  margin: 0;
-  text-align: left;
-}
 
-#about .section-heading .section-intro {
-  margin-left: 0;
-  margin-right: 0;
-  text-align: left;
-}
