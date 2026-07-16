@@ -32,9 +32,9 @@ jobs:
           before = target.read_text(encoding='utf-8')
           after = before
           if sec_a:
-              after = after.replace('<!-- bbffefe6b75dc4835712ea1280888f78f8 -->', sec_a)
+              after = after.replace('<!-- f0aa7fec6eca0c80fd42acbd918758bfefd15a375835b3 -->', sec_a)
           if sec_b:
-              after = after.replace('<!--  -->', sec_b)
+              after = after.replace('<!-- 92bae9e30f71c99765b4f809851f31 -->', sec_b)
           if after == before and (sec_a or sec_b):
               sys.exit(1)
           if after != before:
